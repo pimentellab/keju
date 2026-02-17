@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.httr-oauth
+.DS_Store
+.quarto
+inst/doc
+vignettes/keju_vignette
+docs
+inst/stan/keju_no_motif
+inst/stan/keju_motif_shrinkage
+inst/stan/keju_covariate_motif_slope_intercept
