@@ -44,7 +44,7 @@ library(keju)
 ```
 
 ## Using keju
-An introductory vignette can be found [here](https://github.com/asxue/pimentellab/vignettes/introduction.html). If you run into problems, please submit and issue on github or email <albertsxue@gmail.com>.
+An introductory vignette can be found [here](https://pimentellab.com/keju/articles/introduction.html). If you run into problems, please submit and issue on github or email <albertsxue@gmail.com>.
 
 ### Choosing the correct keju model
 **keju** is not a singular model, but a suite of models for different use cases that fit within each other, a little like Russian nesting dolls. As a result, choosing the correct model for your use case can be confusing. 
@@ -53,4 +53,4 @@ An introductory vignette can be found [here](https://github.com/asxue/pimentella
 * `motif_shrinkage` is slightly more specialized version of `no_motif`. If architectures have some kind of shared structure (i.e., multiple architectures test the same transcription factor binding motif), `motif_shrinkage` has some statistical niceties that may be of interest and slightly better performance given this motif-level metadata.
 * `covariate_motif_slope_intercept` is a slightly more specialized version of `motif_shrinkage`. If you think your covariates are affecting the transcription rate of your architectures (i.e. minimal promoter choice (see our paper)), `covariate_motif_slope_intercept` can quantify those effects for you given motif-level and covariate-level metadata.
 
-If you have questions, the [vignette](https://github.com/pimentellab/keju/vignettes/introduction.html) may be helpful.
+If you have questions, the [vignette](https://pimentellab.com/keju/articles/introduction.html) may be helpful.
