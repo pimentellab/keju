@@ -317,7 +317,7 @@ keju <- keju_fit(keju, output_dir=paste0(output_dir, '/no_motif'), model='no_mot
 #> Chain 3 Iteration: 1900 / 2000 [ 95%]  (Sampling) 
 #> Chain 4 Iteration: 1400 / 2000 [ 70%]  (Sampling) 
 #> Chain 3 Iteration: 2000 / 2000 [100%]  (Sampling) 
-#> Chain 3 finished in 93.5 seconds.
+#> Chain 3 finished in 94.2 seconds.
 #> Chain 1 Iteration: 1400 / 2000 [ 70%]  (Sampling) 
 #> Chain 2 Iteration: 1500 / 2000 [ 75%]  (Sampling) 
 #> Chain 4 Iteration: 1500 / 2000 [ 75%]  (Sampling) 
@@ -332,18 +332,18 @@ keju <- keju_fit(keju, output_dir=paste0(output_dir, '/no_motif'), model='no_mot
 #> Chain 1 Iteration: 1700 / 2000 [ 85%]  (Sampling) 
 #> Chain 4 Iteration: 1800 / 2000 [ 90%]  (Sampling) 
 #> Chain 2 Iteration: 2000 / 2000 [100%]  (Sampling) 
-#> Chain 2 finished in 145.2 seconds.
+#> Chain 2 finished in 145.9 seconds.
 #> Chain 4 Iteration: 1900 / 2000 [ 95%]  (Sampling) 
 #> Chain 1 Iteration: 1800 / 2000 [ 90%]  (Sampling) 
 #> Chain 4 Iteration: 2000 / 2000 [100%]  (Sampling) 
-#> Chain 4 finished in 163.9 seconds.
+#> Chain 4 finished in 164.9 seconds.
 #> Chain 1 Iteration: 1900 / 2000 [ 95%]  (Sampling) 
 #> Chain 1 Iteration: 2000 / 2000 [100%]  (Sampling) 
-#> Chain 1 finished in 181.7 seconds.
+#> Chain 1 finished in 182.4 seconds.
 #> 
 #> All 4 chains finished successfully.
-#> Mean chain execution time: 146.1 seconds.
-#> Total execution time: 181.7 seconds.
+#> Mean chain execution time: 146.9 seconds.
+#> Total execution time: 182.5 seconds.
 #> Warning: 8 of 4000 (0.0%) transitions hit the maximum treedepth limit of 10.
 #> See https://mc-stan.org/misc/warnings for details.
 #> 
@@ -440,8 +440,8 @@ keju_ms <- keju_fit(keju_ms, paste0(output_dir, '/motif_shrinkage'), model='moti
 #> Chain 1 Iteration:  300 / 2000 [ 15%]  (Warmup) 
 #> Chain 4 Iteration:  300 / 2000 [ 15%]  (Warmup) 
 #> Chain 2 Iteration:  400 / 2000 [ 20%]  (Warmup) 
-#> Chain 4 Iteration:  400 / 2000 [ 20%]  (Warmup) 
 #> Chain 3 Iteration:  500 / 2000 [ 25%]  (Warmup) 
+#> Chain 4 Iteration:  400 / 2000 [ 20%]  (Warmup) 
 #> Chain 1 Iteration:  400 / 2000 [ 20%]  (Warmup) 
 #> Chain 2 Iteration:  500 / 2000 [ 25%]  (Warmup) 
 #> Chain 3 Iteration:  600 / 2000 [ 30%]  (Warmup) 
@@ -503,21 +503,21 @@ keju_ms <- keju_fit(keju_ms, paste0(output_dir, '/motif_shrinkage'), model='moti
 #> Chain 2 Iteration: 1800 / 2000 [ 90%]  (Sampling) 
 #> Chain 1 Iteration: 1800 / 2000 [ 90%]  (Sampling) 
 #> Chain 3 Iteration: 2000 / 2000 [100%]  (Sampling) 
-#> Chain 3 finished in 99.2 seconds.
+#> Chain 3 finished in 99.8 seconds.
 #> Chain 4 Iteration: 1800 / 2000 [ 90%]  (Sampling) 
 #> Chain 2 Iteration: 1900 / 2000 [ 95%]  (Sampling) 
 #> Chain 1 Iteration: 1900 / 2000 [ 95%]  (Sampling) 
 #> Chain 4 Iteration: 1900 / 2000 [ 95%]  (Sampling) 
 #> Chain 2 Iteration: 2000 / 2000 [100%]  (Sampling) 
-#> Chain 2 finished in 105.7 seconds.
+#> Chain 2 finished in 106.2 seconds.
 #> Chain 1 Iteration: 2000 / 2000 [100%]  (Sampling) 
-#> Chain 1 finished in 108.2 seconds.
+#> Chain 1 finished in 108.8 seconds.
 #> Chain 4 Iteration: 2000 / 2000 [100%]  (Sampling) 
-#> Chain 4 finished in 109.3 seconds.
+#> Chain 4 finished in 109.8 seconds.
 #> 
 #> All 4 chains finished successfully.
-#> Mean chain execution time: 105.6 seconds.
-#> Total execution time: 109.4 seconds.
+#> Mean chain execution time: 106.2 seconds.
+#> Total execution time: 110.0 seconds.
 #> 
 #> $num_divergent
 #> [1] 0 0 0 0
@@ -677,18 +677,18 @@ keju_cmsi <- keju_fit(keju_cmsi, paste0(output_dir, '/covariate_motif_slope_inte
 #> Chain 3 Iteration: 1900 / 2000 [ 95%]  (Sampling) 
 #> Chain 2 Iteration: 1900 / 2000 [ 95%]  (Sampling) 
 #> Chain 1 Iteration: 2000 / 2000 [100%]  (Sampling) 
-#> Chain 1 finished in 101.5 seconds.
+#> Chain 1 finished in 102.3 seconds.
 #> Chain 4 Iteration: 1900 / 2000 [ 95%]  (Sampling) 
 #> Chain 3 Iteration: 2000 / 2000 [100%]  (Sampling) 
-#> Chain 3 finished in 104.1 seconds.
+#> Chain 3 finished in 105.1 seconds.
 #> Chain 2 Iteration: 2000 / 2000 [100%]  (Sampling) 
-#> Chain 2 finished in 105.6 seconds.
+#> Chain 2 finished in 106.5 seconds.
 #> Chain 4 Iteration: 2000 / 2000 [100%]  (Sampling) 
-#> Chain 4 finished in 107.6 seconds.
+#> Chain 4 finished in 108.4 seconds.
 #> 
 #> All 4 chains finished successfully.
-#> Mean chain execution time: 104.7 seconds.
-#> Total execution time: 107.8 seconds.
+#> Mean chain execution time: 105.6 seconds.
+#> Total execution time: 108.5 seconds.
 #> 
 #> $num_divergent
 #> [1] 0 0 0 0
@@ -712,9 +712,11 @@ keju_cmsi <- keju_fit(keju_cmsi, paste0(output_dir, '/covariate_motif_slope_inte
 
 </div>
 
-<div class="section level3">
+</div>
 
-### Accessing estimates
+<div class="section level2">
+
+## Accessing estimates
 
 keju provides both transcription rate estimates (alpha) and effect
 size/differential activity estimates (beta). We can access both
@@ -846,8 +848,6 @@ head(keju_cmsi$covariate_slope_estimate)
 
 Thanks for using keju! Email me at <albertsxue@gmail.com> with any
 questions.
-
-</div>
 
 </div>
 

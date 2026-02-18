@@ -84,8 +84,8 @@ library(keju)
 ## Using keju
 
 An introductory vignette can be found
-[here](https://github.com/asxue/pimentellab/vignettes/introduction.html).
-If you run into problems, please submit and issue on github or email
+[here](https://pimentellab.com/keju/articles/introduction.html). If you
+run into problems, please submit and issue on github or email
 <albertsxue@gmail.com>.
 
 <div class="section level3">
@@ -114,8 +114,8 @@ confusing.
     covariate-level metadata.
 
 If you have questions, the
-[vignette](https://github.com/pimentellab/keju/vignettes/introduction.html)
-may be helpful.
+[vignette](https://pimentellab.com/keju/articles/introduction.html) may
+be helpful.
 
 </div>
 
