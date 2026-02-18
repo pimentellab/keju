@@ -173,7 +173,7 @@ keju_cmsi <- keju_fit(keju_cmsi, paste0(output_dir, '/covariate_motif_slope_inte
                  model='covariate_motif_slope_intercept', 
                  infer_differential_activity=TRUE)
 ```
-### Accessing estimates
+## Accessing estimates
 keju provides both transcription rate estimates (alpha) and effect size/differential activity estimates (beta). We can access both estimates as shown below. The most important columns here are mean (the mean estimate), sd (standard deviation of estimate), and is_significant.
 
 ```{r}
